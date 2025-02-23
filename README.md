@@ -32,7 +32,7 @@ Display | 1080 x 2340 pixels, 6.39 inches (~428 ppi pixel density)
 Camera  | 48MP(Primary),12MP(Telephoto), 16MP(Ultrawide), dual-LED (dual tone) flash, 20MP(Selfie)
 
 ## Device picture
-![Xiaomi Mi 9 Pro 5G](https://raw.githubusercontent.com/PixelExperience/official_devices/master/images/.thumbs/300/crux.png)
+![Xiaomi Mi 9](https://raw.githubusercontent.com/PixelExperience/official_devices/master/images/.thumbs/300/crux.png)
 
 ## Compile
 
