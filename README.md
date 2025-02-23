@@ -14,6 +14,6 @@ system正常解密可刷入rom
 
 目前bug:
 
-Data不解密
-振动
-
+官方rom下 Data不解密
+A12-14正常解密
+振动bug

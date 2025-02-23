@@ -1,6 +1,3 @@
-ro.product.vendor.marketname=Mi 9 Pro 5G
-ro.product.board=crux
-
 # ADB
 ro.adb.secure=0
 
