@@ -117,8 +117,8 @@ PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Crypto
-#TW_INCLUDE_CRYPTO := true
-#BOARD_USES_QCOM_FBE_DECRYPTION := true
+TW_INCLUDE_CRYPTO := true
+BOARD_USES_QCOM_FBE_DECRYPTION := true
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
@@ -127,7 +127,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_DEFAULT_LANGUAGE := zh_CN
 TARGET_RECOVERY_QCOM_RTC_FIX := true
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_BRIGHTNESS_PATH :="/sys/class/backlight/panel0-backlight/brightness"
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_NTFS_3G := true
 TW_IGNORE_MISC_WIPE_DATA := true
