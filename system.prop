@@ -9,3 +9,5 @@ ro.charger.enable_suspend=1
 
 # Timezone
 persist.sys.timezone=Asia/Shanghai
+
+keymaster_ver=4.0
