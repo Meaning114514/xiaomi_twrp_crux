@@ -23,6 +23,13 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Fastbootd
 TW_INCLUDE_FASTBOOTD := true
 
+# Display
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
+# Default FS type
+BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1 \
